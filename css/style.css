@@ -1,0 +1,327 @@
+/* 	Common Start */
+:root{
+	    --rob: 'Roboto', sans-serif;
+	    --pop: 'Poppins', sans-serif;
+		--r: #FD511A;
+		--g: #21B573;
+		--b: #000000;
+		--w: #ffffff;
+		--bl: #282531;
+		--gr: #585859;
+		--lg: #F0FFF0;
+}
+body{
+	font-family: var(--pop);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--b);
+}
+.c_pad{
+	padding-bottom: 100px;
+}
+/* 	Common End */
+
+
+/* 	Header End */
+header{
+	background-color: var(--lg);
+	padding: 15px 0;
+}
+
+.c_logo{}
+
+.logo{}
+
+.menu{}
+
+.menu ul{
+	align-items: center;
+}
+
+.menu ul li{}
+
+.menu ul li a{
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--b);
+	padding-right: 50px !important;
+}
+
+.menu ul li a:hover{
+	color: var(--r);
+}
+
+.c_btn{
+	border-radius: 33px;
+	font-family: var(--rob);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--w);
+	background-color: var(--g);
+}
+
+.s_btn{
+	padding: 12px 28px !important;
+}
+
+.s_btn:hover{
+	color: var(--w);
+	background-color: var(--r);
+}
+
+.sign_up{
+	text-decoration: none;
+	font-size: 16px;
+	margin-right: 10px;
+}
+/* 	Header End */
+
+/* 	Banner Start */
+.banner{
+	background-color: var(--lg);
+	padding: 20px 0 65px 0;
+}
+
+.b_text{}
+
+.b_p1{
+	color: var(--r);
+}
+
+.b_h1{
+	margin: 10px 0 20px 0;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 70px;
+	color: var(--b);
+	padding-right: 100px;
+}
+
+.b_h1 span{
+	color: var(--g);
+}
+
+.b_p2{
+	line-height: 36px;
+	color: #6C6B6B;
+	padding-right: 95px;
+}
+
+.b_btn{
+	margin-top: 14px;
+	padding: 12px 36px;
+}
+
+.b_btn:hover{
+	background-color: var(--r);
+	color: var(--w);
+}
+
+.b_img{}
+
+.b_img img{}
+/* 	Header End */
+
+/* 	Feature Start */
+
+.feature{
+}
+
+.f_item{
+	margin-top: 40px;
+	background-color: var(--lg);
+	padding: 50px 0;
+}
+
+.f_item:hover{
+	cursor: pointer;
+	background-color: var(--w);
+	box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.1);
+}
+
+.f_img{}
+
+.f_img img{
+	margin-bottom: 20px;
+}
+
+.f_h2{
+	font-size: 24px;
+	color: #413960;
+	font-weight: 500;
+}
+
+.f_p{
+	color: var(--gr);
+}
+
+
+/* 	Feature End */
+
+/*Online Course Start*/
+
+.online{
+	padding-bottom: 90px;
+}
+
+.oc_h1{
+	font-size: 36px;
+	font-weight: 700;
+	color: #413960;
+}
+
+.single_item{
+	border-radius: 18px;
+	padding: 25px 20px;
+	margin-top: 70px;
+	box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.1);
+}
+
+.oc_img{}
+
+.oc_img img{}
+
+.oc_btn{
+	margin: 20px 0 30px;
+	padding: 8px 28px;
+}
+
+.oc_btn:hover{
+	background-color: var(--r);
+	color: var(--w);
+}
+
+.oc_h2{
+	margin: 20px 0 3px;
+}
+
+.oc_footer{}
+
+.left{}
+
+.left ul{}
+
+.left ul li{}
+
+.left ul li span, .right ul li span{
+	font-weight: 500;
+	color: var(--gr);
+}
+
+.left ul li i, .right ul li i{
+	font-size: 24px;
+	color: var(--gr);
+}
+
+.right{}
+
+.right ul{}
+
+.right ul li{}
+
+/*Online Course End*/
+
+/*Testomonial Start*/
+.testomonial{}
+
+.t_h1{
+	margin-bottom: 75px;
+}
+.t_img{}
+
+.t_img img{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+}
+
+.t_text {
+    margin-left: 25px;
+}
+
+.t_p{
+	line-height: 30px;
+}
+
+.tm_indi [data-bs-target] {
+    background-color: var(--b);
+}
+
+.prv, .nxt{
+	font-size: 30px;
+    color: var(--b);
+}
+
+.prv{
+	left: -15.5%;
+}
+
+.nxt{
+	right: -15.5%;
+}
+
+.tm_indi{
+	bottom: -40%;
+}
+
+.prv:hover, .prv:focus, .nxt:hover, .nxt:focus {
+    color: var(--r);
+}
+/*Testomonial End*/
+
+/*Footer Start*/
+footer{
+	background-color: var(--bl);
+	padding: 55px 0 30px;
+}
+
+.f_1{}
+
+.f_1 p{
+	margin: 12px 0 0;
+	line-height: 30px;
+	color: var(--w);
+}
+
+.f_2 h2{
+	margin-bottom: 20px;
+}
+
+.f_2 h2 a{
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--w);
+	text-decoration: none;
+
+}
+
+.f_2 p{
+	margin-bottom: 30px;
+}
+
+.f_2 p a{
+	text-decoration: none;
+	color: var(--w);
+}
+
+.f_2 p a:hover{
+	color: var(--r);
+}
+.f_2 h2 a:hover{
+	color: var(--r);
+}
+
+.copyright{}
+
+.copyright p{
+	margin: 75px 0 0;
+	color: var(--w);
+}
+
+.copyright p a{}
+
+/*Footer End*/
